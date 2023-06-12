@@ -33,7 +33,7 @@ public class Ishikiro extends Fragment implements Actionplaying{
     Button play;
     boolean prepared=false;
     boolean started=false;
-    String stream="https://s1.voscast.com:10377/AGAKIZA";
+    String stream="https://s1.voscast.com:10377/AGAKIZA"   ;
     MediaPlayer mediaPlayer;
     ProgressDialog progressDialog;
     AudioManager audioManager;
