@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:ignore="HardcodedText">
+    <item
+
+        android:id="@+id/shikiro"
+        android:title="Ishikiro"
+        android:icon="@drawable/ishikiro"
+
+        />
+    <item
+
+        android:id="@+id/turi"
+        android:title="Turi"
+        android:icon="@drawable/turi"
+
+        />
+    <item
+
+        android:id="@+id/sangira"
+        android:title="Sangira"
+        android:icon="@drawable/ic_baseline_share_24"
+
+        />
+
+    <item
+
+        android:id="@+id/kwugara"
+        android:title="Kwugara"
+        android:icon="@drawable/kugara"
+
+        />
+
+
+
+</menu>

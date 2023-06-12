@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".turi"
+
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/radioagakizaimage" />
+
+            <TextView
+                android:id="@+id/intro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+
+
+                android:text="@string/introduction"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/igikorwa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+
+                android:text="@string/IGIKORWATitre"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:drawableStart="@drawable/mission"
+                android:drawablePadding="10dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/igikorwadescr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+
+                android:text="@string/intumberoDescr"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:id="@+id/ihangirotitre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:drawableStart="@drawable/vision"
+                android:drawablePadding="10dp"
+
+                android:text="@string/ihangiroTitre"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/ihangirodescr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+
+                android:text="@string/ihangiroDescr"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:id="@+id/contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+
+                android:text="@string/contacttitre"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="italic"
+
+                />
+            <TextView
+                android:id="@+id/ikibanza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:drawableStart="@drawable/ikibanza"
+                android:drawablePadding="5dp"
+                android:text="@string/ikibanza"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+
+                />
+            <TextView
+                android:id="@+id/posita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:drawableStart="@drawable/posita"
+                android:drawablePadding="5dp"
+                android:text="@string/posita"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+
+                />
+            <TextView
+                android:id="@+id/igihugu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:drawableStart="@drawable/igisagara"
+                android:drawablePadding="5dp"
+                android:text="@string/igihugu"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+
+                />
+            <TextView
+                android:id="@+id/tel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:drawableStart="@drawable/tel"
+                android:drawablePadding="5dp"
+                android:text="@string/tel"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+
+                />
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/email"
+                android:text="@string/email"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+
+                />
+            <TextView
+                android:id="@+id/socialmedia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+
+                android:text="@string/socialmedia"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+
+                android:textSize="25sp"
+
+
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/youtube"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/youtube"
+                    android:layout_marginLeft="25sp"
+                    app:backgroundTint="@null"
+                    />
+                <Button
+                    android:id="@+id/facebook"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/facebook"
+                    android:layout_marginLeft="40sp"
+                    app:backgroundTint="@null"
+
+                    />
+                <Button
+                    android:id="@+id/twitter"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/twitter"
+                    android:layout_marginLeft="40sp"
+                    app:backgroundTint="@null"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

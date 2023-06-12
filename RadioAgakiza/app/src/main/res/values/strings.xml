@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Radio Agakiza</string>
+    <string name="nav_open">Ugurura</string>
+    <string name="nav_close">Ugara</string>
+
+
+    <string name="ego">Ego</string>
+    <string name="oya">Oya</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="introduction">Radio Agakiza n\'isamirizi y\'ishengero ry\'abadventiste b \'umusi
+    ugira indwi mu Burundi.Iyo samirizi ifise igikorwa co kuvuga ubutumwa bw\'abamarayika batatu
+        biciye mu biganiro n\'indirimbo ishikiriza.
+    </string>
+    <string name="IGIKORWATitre">IGIKORWA</string>
+    <string name="intumberoDescr">Guhamagara abantu bose guhinduka abigishwa ba Yesu kristo,
+    kuvuga ubutumwa butazoshira bwa abamarayika batatu(Ivyah 14:6-13) no gutegura isi ukugaruka
+        ukundi kwa Yesu Kristo.</string>
+    <string name="ihangiroTitre">IHANGIRO</string>
+    <string name="ihangiroDescr">Gusubiza itoto ivy\'Imana yaremye vyose bigatungana nk\'uko nayo
+    igororotse.Ico kintu niwo mugambi nyamukuru w\'Imana uhwaniranye n\'ubuhanuzi nyamukuru
+        bwo munyandiko zera</string>
+    <string name="contacttitre"><b>Mukeneye kuganira natwe turondere:</b></string>
+    <string name="ikibanza"><b>Ikibanza:</b>Av de la Jeunesse no 8</string>
+    <string name="posita">Agasandugu ka posita 1780</string>
+    <string name="igihugu">Bujumbura,Burundi</string>
+    <string name="tel"><b>Tel:</b>79861039</string>
+    <string name="email"><b>Email:</b>radioagakiza@gmail.com</string>
+    <string name="socialmedia"><b>Mushobora kudukurikirana ku mbuga mpuzabantu:</b></string>
+    <string name="internet"><i>Nturi kumuhora wa interinete.Gerageza kuja kumuhora wa interinete
+         hama uheze wumvirize isamirizi yacu ariyo rwanyu.Uhejeje fyonda kuri gerageza kandi.Murakoze
+
+       </i></string>
+</resources>
